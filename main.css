@@ -1,0 +1,65 @@
+#topic1, #comment1, #comment2 {
+    font-size: 18px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-left: 45%;
+}
+
+textarea:focus {
+    border-color: #007bff; 
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: ease-in;
+}
+
+
+body {
+    background-color: #f4fba6; 
+}
+
+header {
+    text-align: center; 
+    padding: 50px 0; 
+}
+
+header h1 {
+    margin: 0; 
+}
+
+.textbox{
+    background-color: #8f8f79;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+}
+
+img {
+    text-align: center;
+    max-width: 100%; 
+}
